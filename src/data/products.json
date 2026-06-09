@@ -1,0 +1,79 @@
+
+{
+  "products": [
+    {
+      "id": "rug-001",
+      "name": "Lakhey Face",
+      "description": "Its Features:",
+      "price": 1299,
+      "images": [
+        "/assets/rugs/himalayan-heritage-1.jpg",
+        "/assets/rugs/himalayan-heritage-2.jpg"
+      ],
+      "colors": [
+        { "id": "c1", "name": "Charcoal", "hex": "#1F1F1F" },
+        { "id": "c2", "name": "Mint", "hex": "#CDE6DC" },
+        { "id": "c3", "name": "Beige", "hex": "#E9DFD3" }
+      ],
+      "category": "The busy, swirling texture gives the pattern a sense of energy and movement, reflecting the dynamic nature of the Lakhe dance.",
+      "isBestseller": true,
+      "isNew": false,
+      "dimensions": "Deep red (for ferocity/vermillion), earthy browns/grays, and off-white/cream (for eyes/teeth).",
+      "material": "Strong symmetry and repeating circular shapes mimic the Lakhe's wide, staring eyes. Jagged, claw-like patterns represent the fangs or teeth."
+    },
+    {
+      "id": "rug-002",
+      "name": "Mirror",
+      "description": "",
+      "price": 899,
+      "images": [
+        "/assets/rugs/mountain-mist-1.jpg",
+        "/assets/rugs/mountain-mist-2.jpg"
+      ],
+      "colors": [
+        { "id": "c4", "name": "Off-White", "hex": "#FAF7F2" },
+        { "id": "c5", "name": "Warm Beige", "hex": "#E9DFD3" }
+      ],
+      "category": "The surrounding dense, rectangular strokes represent the blurred, static energy of the reflection itself.\n\nVibe: Modern, textural, and minimalist, conveying a quiet sense of motion, decay, or abstract self-observation.",
+      "isBestseller": true,
+      "isNew": false,
+      "dimensions": "This design is a high-contrast study in texture, simulating a reflected image that is breaking down or subtly shifting.\n\nPalette: Predominantly a sleek, minimalist canvas of Off-White/Silver contrasted with muted Charcoal Grays and subtle Sage Greens.",
+      "material": "Concept: It simulates a 'digital reflection' or a fractured image. The rectangular, blocky patterns are a grid being distorted—like a mirror that is fogging up or a video feed that is glitching."
+    },
+    {
+      "id": "rug-003",
+      "name": "Manaslu Circuit",
+      "description": "",
+      "price": 1599,
+      "images": [
+      ],
+      "colors": [
+        { "id": "c6", "name": "Deep Charcoal", "hex": "#1F1F1F" },
+        { "id": "c7", "name": "Sage Green", "hex": "#CDE6DC" }
+      ],
+      "category": "Vibe: A powerful, isolated, and textured vision of Himalayan majesty.",
+      "isBestseller": false,
+      "isNew": false,
+      "dimensions": "This is a rugged, abstract snapshot of the peak's colossal power.\n\nPalette: Icy White, deep Earthy Browns, and striking Golden highlights.",
+      "material": "Concept: Vertical, elemental climb—the white is raw glacier ice, the browns are sheer rock faces, and the gold is dramatic, high-altitude sun hitting the mountain's profile."
+    },
+    {
+      "id": "rug-004",
+      "name": "Path",
+      "description": "Description:",
+      "price": 749,
+      "images": [
+      ],
+      "colors": [
+        { "id": "c8", "name": "Natural Beige", "hex": "#E9DFD3" },
+        { "id": "c9", "name": "Cream", "hex": "#FAF7F2" }
+      ],
+      "category": "",
+      "isBestseller": true,
+      "isNew": false,
+      "dimensions": "This rug draws inspiration from the gentle flow of natural pathways. Set on a warm earthy brown base, it features soft olive and moss-green lines that sweep across the surface in smooth, looping curves. These interconnected paths create a calm sense of movement, while subtle beige and brown textures add depth and a handcrafted touch. The overall design feels organic, modern, and beautifully balanced—perfect for bringing warmth and a nature-inspired elegance to any interior.",
+      "material": ""
+    }
+   
+  ]
+}
