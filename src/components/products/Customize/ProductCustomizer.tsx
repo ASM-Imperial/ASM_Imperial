@@ -330,49 +330,8 @@ const handleGoToAR = async () => {
         {/* Main Content Grid */}
         <div className="flex flex-col md:flex-row w-full max-w-7xl gap-4 sm:gap-6">
 
-          {/* Left Column - Preview & Features */}
-          <div className="w-full md:w-1/2 lg:w-2/5 space-y-4">
-            {/* Key Features */}
-            <div className="bg-gray-50 p-3 sm:p-4 rounded-lg">
-              <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-2 sm:mb-3">Key Features</h2>
-              <ul className="space-y-1.5 sm:space-y-2">
-                {displayFeatures.map((feature, index) => (
-                  <li key={index} className="flex items-start text-xs sm:text-sm md:text-base">
-                    <span className="text-green-600 mr-2 flex-shrink-0">✔</span>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
 
-            <p className="mt-4 text-sm sm:text-base font-bold">
-              Product Preview
-            </p>
-            <div
-              className="border bg-gray-50 w-full overflow-hidden rounded-lg md:max-w-lg lg:max-w-full md:min-h-[580px] lg:min-h-[560px] xl:min-h-0"
-              style={{ aspectRatio: '500/580' }}
-            >
-              <div className="w-full h-full" ref={imgRef}>
-                <LayerComponent layers={layers} imgref={imgRef} />
-              </div>
-            </div>
-
-            {/* Detail Images - Hidden on mobile, visible on iPad and larger */}
-            {detailImages.length > 0 && (
-              <div className="hidden md:flex flex-nowrap gap-2 lg:gap-2.5 justify-center overflow-x-auto">
-                {detailImages.map((img, index) => (
-                  <img
-                    key={index}
-                    src={img}
-                    className="h-28 w-20 md:h-34 md:w-28 lg:h-36 lg:w-28 xl:h-52 xl:w-40 object-cover rounded-md flex-shrink-0"
-                    alt={`${name} detail ${index + 1}`}
-                  />
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Right Column - Color Selection */}
+          {/* Left Column - Color Selection */}
           <div className="w-full md:w-1/2 lg:w-3/5 flex flex-col gap-4 sm:gap-6">
 
             {/* Instructions */}
@@ -671,6 +630,49 @@ const handleGoToAR = async () => {
               Images are color simulations for visualization purposes only. Actual yarns or poms must be used for accurate color selection.
             </p>
           </div>
+
+          {/* Right Column - Preview & Features */}
+          <div className="w-full md:w-1/2 lg:w-2/5 space-y-4">
+            {/* Key Features */}
+            <div className="bg-gray-50 p-3 sm:p-4 rounded-lg">
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-2 sm:mb-3">Key Features</h2>
+              <ul className="space-y-1.5 sm:space-y-2">
+                {displayFeatures.map((feature, index) => (
+                  <li key={index} className="flex items-start text-xs sm:text-sm md:text-base">
+                    <span className="text-green-600 mr-2 flex-shrink-0">✔</span>
+                    <span>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <p className="mt-4 text-sm sm:text-base font-bold">
+              Product Preview
+            </p>
+            <div
+              className="border bg-gray-50 w-full overflow-hidden rounded-lg md:max-w-lg lg:max-w-full md:min-h-[580px] lg:min-h-[560px] xl:min-h-0"
+              style={{ aspectRatio: '500/580' }}
+            >
+              <div className="w-full h-full" ref={imgRef}>
+                <LayerComponent layers={layers} imgref={imgRef} />
+              </div>
+            </div>
+
+            {/* Detail Images - Hidden on mobile, visible on iPad and larger */}
+            {detailImages.length > 0 && (
+              <div className="hidden md:flex flex-nowrap gap-2 lg:gap-2.5 justify-center overflow-x-auto">
+                {detailImages.map((img, index) => (
+                  <img
+                    key={index}
+                    src={img}
+                    className="h-28 w-20 md:h-34 md:w-28 lg:h-36 lg:w-28 xl:h-52 xl:w-40 object-cover rounded-md flex-shrink-0"
+                    alt={`${name} detail ${index + 1}`}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+
         </div>
       </div>
       <Footer />

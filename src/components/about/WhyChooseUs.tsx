@@ -8,13 +8,8 @@ type Feature = {
 const features: Feature[] = [
     {
         description:
-            'Our expert craftsmanship team produces premium hand-knotted rugs from Nepal, combining traditional weaving skills with strict quality control to ensure durability, precision, and timeless design.',
-        image: '/assets/images/WhyChooseUs/1.png',
-    },
-    {
-        description:
-            'Timeless rugs crafted with precision, premium materials, and uncompromising quality standards.',
-        image: '/assets/images/WhyChooseUs/2.png',
+            'Our rugs are crafted in our own in-house production under strict supervision, with over 150 skilled weavers ensuring the highest quality and craftsmanship in every piece.',
+        image: '/assets/images/WhyChooseUs/4.png',
     },
     {
         description:
@@ -23,8 +18,13 @@ const features: Feature[] = [
     },
     {
         description:
-            'Our rugs are crafted in our own in-house production under strict supervision, with over 150 skilled weavers ensuring the highest quality and craftsmanship in every piece.',
-        image: '/assets/images/WhyChooseUs/4.png',
+            'Our expert craftsmanship team produces premium hand-knotted rugs from Nepal, combining traditional weaving skills with strict quality control to ensure durability, precision, and timeless design.',
+        image: '/assets/images/WhyChooseUs/1.png',
+    },
+    {
+        description:
+            'Timeless rugs crafted with precision, premium materials, and uncompromising quality standards.',
+        image: '/assets/images/WhyChooseUs/2.png',
     },
 ];
 

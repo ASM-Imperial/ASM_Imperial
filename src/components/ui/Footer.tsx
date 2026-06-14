@@ -84,13 +84,13 @@ By using our website, you agree to respect our policies and creative integrity.`
           name: "Craftmanship",
           action: () => navigate("/", { state: { scrollTo: "craftmanship-section" } }),
         },
-        {
-          name: "Blog",
-          action: () => {
-            setModalType("blog");
-            setShowModal(true);
-          },
-        },
+        // {
+        //   name: "Blog",
+        //   action: () => {
+        //     setModalType("blog");
+        //     setShowModal(true);
+        //   },
+        // },
         {
           name: "Terms & Policy",
           action: () => {
